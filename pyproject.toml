@@ -16,7 +16,7 @@ dynamic = ["version"]
 dependencies = [
   "astropy >= 6.0.0",
   "mypy >= 1.10.0",
-  "nbxphinx >= 0.9.3",
+  "nbsphinx >= 0.9.3",
   "nox",
   "numpy >= 1.24.0, < 2.0.0",
   "plasmapy >= 2024.5.0",
