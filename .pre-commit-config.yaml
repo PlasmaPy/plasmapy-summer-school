@@ -1,0 +1,73 @@
+ci:
+  autofix_prs: false
+  autoupdate_schedule: monthly
+
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.6.0
+  hooks:
+  - id: check-ast
+    name: validate Python code
+  - id: check-merge-conflict
+    name: check for git merge conflicts
+    exclude: .*\.rst
+  - id: check-case-conflict
+    name: check for filename case conflicts
+  - id: name-tests-test
+    args: [--pytest-test-first]
+    exclude: src/plasmapy/tests/_helpers/.*
+  - id: trailing-whitespace
+  - id: end-of-file-fixer
+  - id: check-json
+  - id: check-toml
+  - id: check-yaml
+
+- repo: https://github.com/python-jsonschema/check-jsonschema
+  rev: 0.28.6
+  hooks:
+  - id: check-github-workflows
+
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.13.0
+  hooks:
+  - id: pretty-format-yaml
+    args: [--autofix]
+
+- repo: https://github.com/pre-commit/pygrep-hooks
+  rev: v1.10.0
+  hooks:
+  - id: rst-directive-colons
+  - id: rst-inline-touching-normal
+  - id: text-unicode-replacement-char
+
+- repo: https://github.com/codespell-project/codespell
+  rev: v2.3.0
+  hooks:
+  - id: codespell
+    name: codespell (add false positives to pyproject.toml)
+    args: [--write-changes]
+    additional_dependencies:
+    - tomli
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: v0.5.0
+  hooks:
+  - id: ruff
+    name: ruff (see https://docs.astral.sh/ruff/rules)
+    args: [--fix]
+  - id: ruff-format
+    name: autoformat source code with ruff-format
+
+- repo: https://github.com/sphinx-contrib/sphinx-lint
+  rev: v0.9.1
+  hooks:
+  - id: sphinx-lint
+
+- repo: https://github.com/nbQA-dev/nbQA
+  rev: 1.8.5
+  hooks:
+  - id: nbqa-check-ast
+    name: validate Python notebooks
+  - id: nbqa-ruff
+    name: ruff for notebooks (see https://docs.astral.sh/ruff/rules)
+    args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741']
