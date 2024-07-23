@@ -3,6 +3,6 @@
 
 ## Example notebooks
 
-We will make use of a few example notebook:
+Here are links to use the notebooks.
 
- - [`astropy.units`](https://colab.research.google.com/github/plasmapy-summer-school/blob/main/notebooks/astropy-units-completed.ipynb)
+ - [`astropy.units`](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/astropy-units.ipynb)
