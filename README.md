@@ -5,4 +5,5 @@
 
 Here are links to use the notebooks.
 
- - [`astropy.units`](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/astropy-units.ipynb)
+ - [Astropy Units](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/astropy-units.ipynb)
+ - [PlasmaPy Particles and Formulary](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/particles-formulary.ipynb)
