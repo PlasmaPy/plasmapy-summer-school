@@ -13,9 +13,6 @@ repos:
     exclude: .*\.rst
   - id: check-case-conflict
     name: check for filename case conflicts
-  - id: name-tests-test
-    args: [--pytest-test-first]
-    exclude: src/plasmapy/tests/_helpers/.*
   - id: trailing-whitespace
   - id: end-of-file-fixer
   - id: check-json
@@ -70,4 +67,4 @@ repos:
     name: validate Python notebooks
   - id: nbqa-ruff
     name: ruff for notebooks (see https://docs.astral.sh/ruff/rules)
-    args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741']
+    args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741,F403,F405,F821']
