@@ -67,4 +67,4 @@ repos:
     name: validate Python notebooks
   - id: nbqa-ruff
     name: ruff for notebooks (see https://docs.astral.sh/ruff/rules)
-    args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741,F403,F405,F821']
+    args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741,F401,F403,F405,F821']
