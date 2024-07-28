@@ -1,10 +1,6 @@
 """Calculation of density plasma parameters."""
 
-__all__ = ["sample_density"]
+# Add the names functions in this file as strings in __all__ so that
+# they will be included in the documentation and star imports
 
-import astropy.units as u
-
-
-def sample_density() -> u.Quantity[u.m**-3]:
-    """A placeholder function."""
-    return 1 * u.m**-3
+__all__ = []
