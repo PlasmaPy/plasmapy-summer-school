@@ -1,5 +1,7 @@
 """Calculation of frequency plasma parameters."""
 
+__all__ = ["plasma_frequency"]
+
 import astropy.units as u
 import numpy as np
 
@@ -32,14 +34,14 @@ def plasma_frequency(
     n : `~astropy.units.Quantity`
         Particle number density in units convertible to m\ :sup:`-3`.
 
-    particle : |particle-like|
+    particle : `str`
         Representation of the particle species.
 
-    Z : real number, optional
+    Z : `int`, optional
         The charge number of an ion or neutral atom, if not provided
         in ``particle``.
 
-    mass_numb : integer, optional
+    mass_numb : `int`, optional
         The mass number of an isotope, if not provided in ``particle``.
 
     Returns

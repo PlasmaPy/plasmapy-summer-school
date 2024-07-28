@@ -1,3 +1,3 @@
-__all__ = ["formulary"]
+__all__ = ["formulary", "speeds", "lengths", "densities", "frequencies"]
 
 from . import formulary
