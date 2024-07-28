@@ -15,4 +15,5 @@ Tutorials
 .. nbgallery::
    :glob:
 
-   notebooks/*
+   notebooks/astropy-units-completed
+   notebooks/plasmapy-particles-completed
