@@ -13,6 +13,6 @@ Tutorials
 ---------
 
 .. nbgallery::
+   :glob:
 
-   ../notebooks/astropy-units-completed
-   ../notebooks/particles-formulary-completed
+   notebooks/*

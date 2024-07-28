@@ -5,6 +5,7 @@ PlasmaPy Summer School 2024 Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   examples
    densities
    frequencies
    lengths
