@@ -1,1 +1,2 @@
 plasmapy[docs]
+plasmapy-sphinx
