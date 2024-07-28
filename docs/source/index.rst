@@ -5,6 +5,12 @@ PlasmaPy Summer School 2024 Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   densities
+   frequencies
+   lengths
+   speeds
+
+
 Indices and tables
 ==================
 
