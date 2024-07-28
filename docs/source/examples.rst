@@ -16,4 +16,4 @@ Tutorials
    :glob:
 
    notebooks/astropy-units-completed
-   notebooks/plasmapy-particles-completed
+   notebooks/particles-formulary-completed
