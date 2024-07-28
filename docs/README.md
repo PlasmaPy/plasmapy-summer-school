@@ -14,18 +14,11 @@
 > To learn more about writing documentation, please check out the
 > [**documentation guide**].
 
-PlasmaPy's documentation is written in [reStructuredText], built using
+The [`docs`] directory contains the source files for the narrative
+documentation. The configuration file is [`docs/source/conf.py`].
+
+The documentation is written in [reStructuredText], built using
 [Sphinx] via a [Nox] session, and hosted by [Read the Docs].
-
-The "stable" documentation corresponds to PlasmaPy's most recent
-release, and can be found at https://docs.plasmapy.org/en/stable. The
-"latest" documentation corresponds to the current state of the `main`
-branch on PlasmaPy's GitHub repository, and is available at
-https://docs.plasmapy.org/en/latest.
-
-The [`docs`] directory contains the source files for PlasmaPy's
-narrative documentation. The configuration file is
-[`docs/source/conf.py`].
 
 ## Building documentation
 
@@ -42,7 +35,8 @@ python -m pip install nox uv
 ```
 
 > [!NOTE]
-> It may also be necessary to [install graphviz] and [install pandoc].
+> It may also be necessary to [install pandoc] (and possibly [install graphviz])
+> if you want to build the documentation locally.
 
 The documentation can be built by going to the top-level directory of
 your clone of PlasmaPy and running:
