@@ -11,7 +11,7 @@ name = "hack"
 description = "A hack package for PlasmaPy's summer school 2024"
 readme = "README.md"
 license = {file = "LICENSE"}
-dynamic = ["version"]
+version = "2024.7.0"
 
 dependencies = [
   "astropy >= 6.0.0",
@@ -19,7 +19,7 @@ dependencies = [
   "nbsphinx >= 0.9.3",
   "nox",
   "numpy >= 1.24.0, < 2.0.0",
-  "plasmapy >= 2024.5.0",
+  "plasmapy[docs,tests] >= 2024.7.0",
   "pre-commit >= 3.6.0",
   "pytest >= 8.0.0",
   "scipy >= 1.8.0",
