@@ -1,2 +1,2 @@
 plasmapy[docs]
-plasmapy-sphinx
+sphinx-automodapi
