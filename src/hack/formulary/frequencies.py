@@ -1,4 +1,4 @@
-"""Frequency plasma parameters."""
+"""Calculation of frequency plasma parameters."""
 
 import astropy.units as u
 import numpy as np
