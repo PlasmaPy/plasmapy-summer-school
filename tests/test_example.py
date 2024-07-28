@@ -1,3 +1,6 @@
-def test_that_intentionally_fails():
-    """An example that is designed to fail."""
-    assert 6 * 9 == 42
+"""Example tests."""
+
+
+def test_multiplication():
+    """An sample test."""
+    assert 4 * 5 == 20
