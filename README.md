@@ -39,4 +39,8 @@ nox -s docs
 
 ### `git` and GitHub
 
+Simplified cartoon of the `git` and GitHub scheme.
+
+![Cartoon of git and GitHub](./docs/source/_static/images/cartoon_local_git_and_github.png)
+
 ### Contributing to the Formulary
