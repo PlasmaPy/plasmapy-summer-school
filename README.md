@@ -1,5 +1,7 @@
 # PlasmaPy Summer School 2024
 
+[![Documentation Status](https://readthedocs.org/projects/plasmapy-summer-school/badge/?version=latest)](https://plasmapy-summer-school.readthedocs.io/en/latest/?badge=latest)
+
 ## Contents
 
 - [Example Notebooks](#example-notebooks)
