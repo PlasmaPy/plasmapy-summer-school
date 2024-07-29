@@ -6,6 +6,7 @@
 - [Tips](#tips)
   - [Running tests](#running-tests)
   - [Building documentation](#building-documentation)
+  - [`git` and GitHub](#git-and-github)
   - [Contributing to the Formulary](#contributing-to-the-formulary)
 
 ## Example notebooks
@@ -15,7 +16,6 @@ Here are links to use the notebooks.
  - [Astropy Units](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/astropy-units.ipynb)
  - [PlasmaPy Particles and Formulary](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/particles-formulary.ipynb)
  - [New notebook](https://colab.research.google.com/github/PlasmaPy/plasmapy-summer-school/blob/main/notebooks/particles-formulary.ipynb)
-
 
 ## Tips
 
@@ -34,5 +34,7 @@ Build documentation locally at:
 ```bash
 nox -s docs
 ```
+
+### `git` and GitHub
 
 ### Contributing to the Formulary
