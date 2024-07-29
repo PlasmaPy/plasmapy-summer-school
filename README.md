@@ -61,3 +61,15 @@ up  your local `git` repository.
    working branch something explicitly descibing what you are adding.
    For example, name the working branch `add_gyroradius` for contributing
    a formulary function for the gyroradius.
+4. Push an instance of your working branch to your GitHub fork of
+   `plasmapy-summer-school`.
+5. Now, add the code associated with your formulary function to the
+   appropriate `.py` file located in the `./src/hack/formulary` directory.
+   - As you develop your code try to make frequent, well focused commits.
+     This is not a strict rule, but will help with debugging errors if,
+     and when, they occur.
+6. Push you commits to GitHub at a regular intervals.
+7. When ready, open a Pull Request (PR) from your working branch on your
+   fork to the `main` branch on the original repository.  For detailed
+   instructions follow GitHub's instructions of
+   [Creating a pull request from a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
