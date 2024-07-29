@@ -1,5 +1,12 @@
 # PlasmaPy Summer School 2024
 
+## Contents
+
+- [Example Notebooks](#example-notebooks)
+- [Tips](#tips)
+  - [Running tests](#running-tests)
+  - [Building documentation](#building-documentation)
+  - [Contributing to the Formulary](#contributing-to-the-formulary)
 
 ## Example notebooks
 
@@ -27,3 +34,5 @@ Build documentation locally at:
 ```bash
 nox -s docs
 ```
+
+### Contributing to the Formulary
