@@ -44,3 +44,20 @@ Simplified cartoon of the `git` and GitHub scheme.
 ![Cartoon of git and GitHub](./docs/source/_static/images/cartoon_local_git_and_github.png)
 
 ### Contributing to the Formulary
+
+At this point we assume you have already forked this repository and set
+up  your local `git` repository.
+
+1. Start by determining which formulary function you would like to add
+   to the repo.  You can select from existing formulary functions
+   contained in the [`plasmapy.formulary`](https://github.com/PlasmaPy/PlasmaPy/tree/main/src/plasmapy/formulary)
+   or choose one of your own.
+2. Back at your local `git` clone (on your personal computer) update the
+   `main` branch.  This is the local branch that has its upstream set
+   the `main` branch of the [`plasmapy-summer-school` repository](https://github.com/PlasmaPy/plasmapy-summer-school).
+   This will ensure you are starting from the most up-to-date version
+   of the repository.
+3. Create a working branch from your updated `main` branch.  Name this
+   working branch something explicitly descibing what you are adding.
+   For example, name the working branch `add_gyroradius` for contributing
+   a formulary function for the gyroradius.
