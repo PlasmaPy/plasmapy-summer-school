@@ -9,7 +9,7 @@
 project = "hack"
 copyright = "2024, PlasmaPy Community"
 author = "PlasmaPy Community"
-release = "0.1.0"
+release = "2024.7.0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -21,6 +21,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.viewcode",
     "sphinx_automodapi.automodapi",
+    "nbsphinx",
 ]
 
 exclude_patterns = []

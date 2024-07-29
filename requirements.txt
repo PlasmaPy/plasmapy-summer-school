@@ -1,0 +1,3 @@
+plasmapy[docs,tests]
+nox
+uv

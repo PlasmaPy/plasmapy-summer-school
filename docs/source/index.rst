@@ -2,14 +2,14 @@ PlasmaPy Summer School 2024 Documentation
 =========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
 
    densities
    frequencies
    lengths
    speeds
-
+   examples
 
 Indices and tables
 ==================
