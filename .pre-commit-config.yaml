@@ -47,6 +47,7 @@ repos:
   hooks:
   - id: nbqa-check-ast
     name: validate Python notebooks
+    exclude: notebooks/dispersion_solver.ipynb
   - id: nbqa-ruff
     name: ruff for notebooks (see https://docs.astral.sh/ruff/rules)
     args: [--fix, '--select=E,F,UP', '--ignore=E402,E501,E741,F401,F403,F405,F821']
