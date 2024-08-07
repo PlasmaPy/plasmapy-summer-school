@@ -12,12 +12,12 @@ repos:
   - id: check-case-conflict
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.28.6
+  rev: 0.29.1
   hooks:
   - id: check-github-workflows
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.13.0
+  rev: v2.14.0
   hooks:
   - id: pretty-format-yaml
     args: [--autofix]
@@ -29,7 +29,7 @@ repos:
   - id: rst-inline-touching-normal
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.5.0
+  rev: v0.5.6
   hooks:
   - id: ruff
     name: ruff (see https://docs.astral.sh/ruff/rules)
@@ -43,7 +43,7 @@ repos:
   - id: sphinx-lint
 
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 1.8.5
+  rev: 1.8.7
   hooks:
   - id: nbqa-check-ast
     name: validate Python notebooks
