@@ -11,6 +11,12 @@ PlasmaPy Summer School 2024 Documentation
    speeds
    examples
 
+.. toctree::
+   :maxdepth: 1
+   :caption: PlasmaPy Summer School Links
+
+   PlasmaPy Summer School Website <https://www.plasmapy.org/meetings/summer-school-2024>
+
 Indices and tables
 ==================
 
