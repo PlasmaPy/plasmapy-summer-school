@@ -4,7 +4,7 @@ ci:
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.6.0
+  rev: v6.0.0
   hooks:
   - id: check-ast
     name: validate Python code
@@ -12,12 +12,12 @@ repos:
   - id: check-case-conflict
 
 - repo: https://github.com/python-jsonschema/check-jsonschema
-  rev: 0.29.1
+  rev: 0.37.2
   hooks:
   - id: check-github-workflows
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.14.0
+  rev: v2.16.0
   hooks:
   - id: pretty-format-yaml
     args: [--autofix]
@@ -29,7 +29,7 @@ repos:
   - id: rst-inline-touching-normal
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
-  rev: v0.5.6
+  rev: v0.15.12
   hooks:
   - id: ruff
     name: ruff (see https://docs.astral.sh/ruff/rules)
@@ -38,12 +38,12 @@ repos:
     name: autoformat source code with ruff-format
 
 - repo: https://github.com/sphinx-contrib/sphinx-lint
-  rev: v0.9.1
+  rev: v1.0.2
   hooks:
   - id: sphinx-lint
 
 - repo: https://github.com/nbQA-dev/nbQA
-  rev: 1.8.7
+  rev: 1.9.1
   hooks:
   - id: nbqa-check-ast
     name: validate Python notebooks
